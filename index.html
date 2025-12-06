@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Password generator</title>
+</head>
+<body>
+    <div class="main-content">
+
+        <div class="password-generator-text">
+            <p>Password Generator</p>
+        </div>
+        
+        <div class="password-generator-result">
+            <p class="password-result">P4$5W0rD!</p>
+            <button class="copy-password" aria-label="Copy password">
+                <img class="icon-copy" src="./images/icon-copy.svg" alt="">
+            </button>
+        </div>
+        <div class="copy-notification">
+            <span>Copied!</span>
+        </div>
+
+        <div class="password-generator-condition">
+
+            <div class="password-symbols-count">
+                <div class="symbols-length-text">
+                    <p class="character-length">Character Length</p>
+                    <p class="symbols-count">4</p>
+                </div>
+                <input type="range" class="password-range" id="password-length" name="length" value="4" min="4" max="20" aria-label="Password length"/>
+            </div>
+
+            <div class="condition-checkbox-list">
+                <ul class="checkbox-list">
+                    <li>
+                        <input type="checkbox" id="uppercase" name="password-options">
+                        <label for="uppercase">Include Uppercase Letters</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="numbers" name="password-options">
+                        <label for="numbers">Include Numbers</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="symbols" name="password-options">
+                        <label for="symbols">Include Symbols</label>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="strength-indicator">
+                <p class="strength">STRENGTH</p>
+                <div class="text-bar-level">
+                    <p class="strength-level"></p>
+                    <div class="four-levels">
+                        <div class="level-bar"></div>
+                        <div class="level-bar"></div>
+                        <div class="level-bar"></div>
+                        <div class="level-bar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="generate-button">
+                    GENERATE
+                    <img class="generate-side-arrow-black" src="./images/generate-side-arrow-black.svg" alt="">
+                    <img class="generate-side-arrow-green" src="./images/generate-side-arrow-green.svg" alt="">
+            </button>
+
+        </div>
+
+    </div>
+    
+<script src="script.js" type="module"></script>
+</body>
+</html>
