@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'JetBrains Mono';
-  src: url('./fonts/JetBrainsMono-Medium.ttf') format('woff2');
+  src: url('JetBrainsMono-Medium.ttf') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
@@ -290,4 +290,5 @@ label {
     color: #A4FFAF;
     border: 1px solid #A4FFAF;
     background-image: url('./images/generate-side-arrow-green.svg');
+
 }
