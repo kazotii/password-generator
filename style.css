@@ -293,7 +293,7 @@ label {
     background-image: url('./images/generate-side-arrow-green.svg');
 }
 @media (max-width: 500px) {
-  .button:hover {
-    background-color: #24232B;
-  }
+  button:hover {
+    background-color: none;
+    }
 }
