@@ -291,6 +291,6 @@ label {
     background: #24232B;
     color: #A4FFAF;
     border: 1px solid #A4FFAF;
-    background-image: url('./images/generate-side-arrow-black.svg');
+    background-image: url('generate-side-arrow-black.svg');
     }
 }
