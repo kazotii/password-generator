@@ -290,6 +290,12 @@ label {
     color: #A4FFAF;
     border: 1px solid #A4FFAF;
     background-image: url('./images/generate-side-arrow-green.svg');
-
 }
+@media (max-width: 500px) {
+  .button:hover {
+    background-color: inherit;
+  }
+}
+
+
 
