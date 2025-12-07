@@ -286,14 +286,11 @@ label {
     display: inline-block;
 }
 
-.generate-button:hover{
+@media (hover: hover) {
+    .generate-button:hover {
     background: #24232B;
     color: #A4FFAF;
     border: 1px solid #A4FFAF;
     background-image: url('./images/generate-side-arrow-green.svg');
-}
-@media (max-width: 500px) {
-  button:hover {
-    background-color: none;
     }
 }
