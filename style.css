@@ -278,19 +278,19 @@ label {
     display: none;
 }
 
-.generate-button:hover .generate-side-arrow-black {
-    display: none;
-}
-
-.generate-button:hover .generate-side-arrow-green {
-    display: inline-block;
-}
-
 @media (hover: hover) {
     .generate-button:hover {
     background: #24232B;
     color: #A4FFAF;
     border: 1px solid #A4FFAF;
     background-image: url('generate-side-arrow-black.svg');
+    }
+
+    .generate-button:hover .generate-side-arrow-black {
+    display: none;
+    }
+
+    .generate-button:hover .generate-side-arrow-green {
+    display: inline-block;
     }
 }
