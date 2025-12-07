@@ -294,6 +294,6 @@ label {
 }
 @media (max-width: 500px) {
   .button:hover {
-    background-color: inherit;
+    background-color: #24232B;
   }
 }
